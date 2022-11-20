@@ -1,0 +1,106 @@
+Concepto fundamental de las funciones:
+
+Obtener un valor que va a variar de otros factores
+Ejemplo:
+
+En Uber, el costo del trayecto depende de la distancia recorrida.
+En este caso lo que regresa la función es el costo del trayecto.
+Formas de representar una función:
+
+Verbalmente
+Ejemplo: “El precio aumento en 2 dólares por cada kilómetro recorrido”
+Numéricamente
+Puede ser con una tabla de valores donde tenemos un valor x y un valor f(x) que le corresponde
+Visualmente
+La gráfica en un plano cartesiano, una forma muy común de comprobar si es una función de esta manera, es trazar una línea sobre la función y si pasa a tocar más de 1 punto, entonces no es una función.
+Algebraicamente
+Ejemplo: función de la parábola f(x)=x^2
+
+Variables
+
+Tipos de variables
+Variables cualitativas
+
+Variables nominales: Se les asigna una cualidad (rojo, verde, azul, etc. en el caso de un LED)
+Variables ordinales: Representan un orden. Por ejemplo, la altura de un objetos se puede clasificar como alto, medio o bajo
+Variables binarias: Solo toman 2 valores, usualmente usadas para representar estados. (frío o caliente, uno o cero)
+Variables cuantitativas
+
+Variables discretas: Representan un grupo de datos que son finitos y toman ciertos valores. Pueden verse como variables separadas por un “paso”. Por ejemplo, una persona puede tener 0,1,2,3 amigos pero no 3.5 amigos
+Variables continuas: Sus valores pueden verse como infinitos al tomar cualquier valor dentro de los números reales en un rango establecido. Por ejemplo, la altura de una persona
+Lo que se suele modelar para escribir funciones, se suele encontrar en el grupo de variables cuantitativas.
+
+
+Tipos de Variables
+Se clasifican en 2 gurpos:
+Variables Cualitativas. Entre ellas tenemos:
+
+Nominales:
+Son las que se asignan una cualidad. Ejemplo: las tiras led pueden clasificarse como Rojos, verde, o azul.
+Ordinales:
+Representan un orden, Ejemplo: La altura de un objeto puede ser Alto, Medio o bajo.
+Binarias:
+Solo toman 2 valores puede ser 1 o 0; o Existe o no Existe; o Verdadero o Falso. Etc.
+Variables Cuantitativas:
+
+Discretas:
+Representan un grupo de datos finitos que toman ciertos valores. Por ejemplo los números de una tabla. Normalmente separadas por pasos, no existen valores intermedios.
+Continuas:
+Sus valores pueden verse como infinitos al tomar cualquier valor entre los números reales entre un rango establecido. Usualmente se usan para representar funciones algebraicas como medir la estatura de una persona.
+Las variables cuantitativas son las que se suelen modelar para escribir funciones, éstas son las fórmulas de funciones discretas y continuas.
+
+Mini glosario de teoría de conjuntos 2
+
+En teoría de conjuntos para designar al conjunto de todos los elementos x que cumplen la propiedad P(x) escribimos: {x | P(x)}
+
+Para designar al subconjunto de A donde se cumple P(x) escribimos: {x ∈ A | P(x)} y se lee "el conjunto de todas las x en A tales que P(x)"
+Ejemplo: {x ∈ N | 2 < x < 6} = {3, 4, 5} donde N representa al conjunto de los números naturales.
+
+Producto cartesiano: Si A y B son dos conjuntos no vacíos (que tienen al menos un elemento cada uno) entonces el producto cartesiano A x B es el conjunto de todos los pares ordenados (a,b) con a ∈ A y b ∈ B.
+A x B = {(a,b) | a ∈ A y b ∈ B}
+Ejemplo: A = {1,2,3} y B = {4,5} entonces A x B = {(1,4),(1,5),(2,4),(2,5),(3,4),(3,5)}
+
+Función: Sean A y B conjuntos (no necesariamente diferentes).
+Una función de A a B es un conjunto f de pares ordenados de A x B con la propiedad de que si (a,b) y (a,c) son elementos de f, entonces b = c (con esto decimos que a los elementos de A les corresponde un único elemento de B).
+Llamamos dominio al conjunto de todos los elementos de A que forman parte del primer miembro de f (los valores que toma a, estas son conocidas como variables independientes) solemos denotarlo como D(f).
+Llamamos codominio o rango al conjunto de todos los elementos de B que forman parte del segundo miembro de f (los valores que toma b, estas son conocidas como variables dependientes ya que su valor dependen del valor de a) y se denotan por R(f).
+
+
+Símbolos matemáticos
+Simbolos de igualdad o relación:
+
+= igual, representa que dos objetos son iguales
+'> mayor qué, indica que un número es mayor que otro
+'< menor qué, indica que un número es menor que otro
+≥ mayor o igual qué, se usa para establecer intervalos
+≤ menor o igual qué, se usa para establecer intervalos
+≠ diferente qué, indica que no son iguales.
+≈ aproximación, indica que un número es aproximadamente.
+->> mucho mayor, indica que un número es mucho mucho mayor a otro
+<< mucho menor, indica que un número es mucho mucho menor a otro
+∞ Infinito, indica un número muy grande
+∞+ infinito positivo.
+∞- infinito negativo.
+Símbolos de operaciones acmulativas, normalmente se encuentran en series geométricas o de expansión.
+
+∑ Sigma, indica sumatoria.
+∏ Producto, tiene un límite inferior y un superior al igual que la sumatoria.
+
+Mini glosario de teoría de conjuntos 3
+
+Los diagramas de Venn son otra forma de representar un conjunto de manera gráfica. Los diagramas nos permiten comprender y analizar fácilmente los conjuntos.
+
+Al conjunto que no contiene elementos se le llama conjunto vació y se denota con el símbolo ϕ
+observación: El conjunto que tenga solo el elemento 0 o el ϕ es no vacío.
+
+La unión de dos conjuntos A y B es el conjunto formado por todos los elementos de ambos conjuntos sin repetir ninguno y se representa así: A ∪ B = {x | x ∈ A ó x ∈ B}
+
+La intersección de dos conjuntos A y B son el conjunto de elementos que forman parte tanto de A como de B, es decir: A ∩ B = {x | x ∈ A y x ∈ B}
+
+La diferencia de dos conjuntos A y B, es un conjunto formado por todos los elementos de A que no están en B y se escribe así: A\B = A - B = {x ∈ A | x ∉ B}
+
+Dados dos conjuntos, el conjunto universal Ω que es el conjunto que incluye a todos los elementos y un conjunto A subconjunto de Ω. El complemento de A son todos aquellos elementos del conjunto universal que no pertenecen a A, es decir: A’ = {x ∈ Ω | x ∉ A}
+
+Según su número de elementos, los conjuntos se pueden clasificar como finitos o infinitos.
+La cardinalidad de un conjunto A es la cantidad de elementos diferentes que tiene y se representa con |A|
+Un conjunto es finito si se conoce su cardinalidad (podemos contar sus elementos) e infinito si se desconoce su cardinalidad (no podemos contar sus elementos).
