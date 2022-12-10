@@ -184,3 +184,14 @@ Dom( f ) = (−∞ )4, ∪ ]8,4(
 .
 De una manera no formal, podríamos decir que si aplastamos la gráfica sobre el eje OX y ésta estuviese
 manchada de tinta, quedaría manchado sobre el eje justo el dominio de definición de la función f.
+
+
+Las neuronas naturales
+
+Son las principales células del sistema nervioso.
+Están especializadas en la recepción de estímulos y conducción del impulso nervioso. Para comprender un poco mejor cual fue la idea que propusieron la siguiente imagen contiene una neurona con sus partes fundamentales.
+341.png
+
+La idea de la neurona artificial
+
+En 1943 McCulloch y Pitts propusieron un modelo de neurona artificial que modelaba aspectos físicos de las neuronas naturales como axón y dendritas. El modelo de neurona artificial que propusieron tenía una salida binaria que se obtenía a partir de los estados de las conexiones de entrada y de los pesos relativos de cada entrada. También se le agregaba una entrada adicional permanentemente activada a la que se la denominaba “bias” o polarización. Este modelo matemático trataba de semejar el funcionamiento de las neuronas naturales. Los resultados obtenidos en base al modelo de McCulloch y Pitts sirvieron de base para el futuro modelado de sistemas de redes neuronales.
