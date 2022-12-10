@@ -195,3 +195,21 @@ Están especializadas en la recepción de estímulos y conducción del impulso n
 La idea de la neurona artificial
 
 En 1943 McCulloch y Pitts propusieron un modelo de neurona artificial que modelaba aspectos físicos de las neuronas naturales como axón y dendritas. El modelo de neurona artificial que propusieron tenía una salida binaria que se obtenía a partir de los estados de las conexiones de entrada y de los pesos relativos de cada entrada. También se le agregaba una entrada adicional permanentemente activada a la que se la denominaba “bias” o polarización. Este modelo matemático trataba de semejar el funcionamiento de las neuronas naturales. Los resultados obtenidos en base al modelo de McCulloch y Pitts sirvieron de base para el futuro modelado de sistemas de redes neuronales.
+
+Señales de entrada: se asemejan a lo que en la vida real son los impulsos eléctricos. En la práctica representa características de lo que estamos modelando.
+
+Pesos sinápticos: define la importancia de las señales de entrada mediante la asignación de una ponderación.
+
+Unión sumadora: suma los resultados de las multiplicaciones entre las señales de entrada y los pesos sinópticos. Es una combinación lineal.
+
+Función de activación: recibe la combinación lineal anterior para definir la salida de la neurona.
+
+Elementos de un perceptrón:
+
+Señal de entrada == Interpretar caracterítcias (color, precio, tamaño, calidad, fabricante, país de origen, etc) -> Se leen como 1 & 0
+
+Peso sináptico == Ponderan el valor de la señal de entrada, le ponen un valor de que tan importante es la señal de entrada que acaba de entrar
+
+Unión sumadora == Suma todos los valores de las Señales de entradas multiplicadas por sus respectivos Pesos sinápticos, y generamos una combinación lineal
+
+Función de activación == El resultado de la Unión sumadora lo pasamos por aquí para que nos de un comportamiento NO lineal
